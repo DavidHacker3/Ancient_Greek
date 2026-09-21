@@ -18,8 +18,7 @@ header {
    background-color: #1F2937;
    border: 0;
    margin: 0;
-   padding: 0;
-   
+   padding: 0;   
 }
 
 header nav {
@@ -75,6 +74,14 @@ button {
     padding-bottom: 10px;
 }
 
+.secondary-text-2 {
+    font-size: 18px;
+    color: #1F2937;
+    display: flex;
+    padding-bottom: 10px;
+}  
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -83,5 +90,34 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.information {
+    margin: 0;
+    padding: 0;
+    padding: 20px 30px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1570px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos {  
+    display: flex;
+    gap: 50px;
+}
+
+.information-main-text {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 700;
+}
+
+img {
+        border: 3px solid blue;
+
 }
 
