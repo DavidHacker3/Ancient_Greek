@@ -18,12 +18,12 @@ header {
    background-color: #1F2937;
    border: 0;
    margin: 0;
-   padding: 0;   
+   padding: 20px;   
 }
 
 header nav {
     display: flex;
-    gap: 150px;
+    gap: 550px;
 }
 
 .hero {
@@ -45,10 +45,14 @@ header nav {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 0.15rem 0.75rem;
+    padding: 10px 30px;
     font-weight: 600;
+    font-size: 16px;
     border-radius: 8px;
     cursor: pointer;
+    border-color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    white-space: nowrap;
 }
 
 .links {
@@ -94,7 +98,6 @@ a {
 
 .information {
     margin: 0;
-    padding: 0;
     padding: 20px 30px;
     padding-bottom: 50px;
     display: flex;
@@ -111,13 +114,73 @@ a {
 }
 
 .information-main-text {
-    font-size: 24px;
+    font-size: 36px;
     color: #1F2937;
-    font-weight: 700;
+    font-weight: 900;
 }
 
-img {
-        border: 3px solid blue;
 
+img {
+    border: 3px solid blue;
+}
+
+.quote {
+background-color: #E5E7EB;
+font-size: 26px;
+color: #1F2937;
+font-style: italic;
+padding: 100px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+}
+
+.quote p {
+font-size: 18px;
+font-style: normal;
+font-weight: bold;
+display: flex;
+justify-content: right;
+}
+
+.box-down {
+    margin: 100px auto;
+    padding: 30px;
+    max-width: 1200px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.text-sign-up {
+    font-size: 16px;
+}
+
+.text-sign-up p {
+font-size: 22px;
+font-style: normal;
+font-weight: bold;
+margin: 0 0 6px 0;
+}
+
+.sign-up {
+    padding: 50px 130px;
+    border-radius: 8px;
+    display: flex;
+    gap: 60px;
+    background-color: #3882F6;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
 }
 
